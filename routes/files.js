@@ -1,4 +1,5 @@
 const express = require('express')
+require('dotenv').config()
 const multer = require('multer')
 const path = require('path')
 const File = require('../model/file')

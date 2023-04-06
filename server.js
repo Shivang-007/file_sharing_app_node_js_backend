@@ -18,7 +18,7 @@ app.use('/files',require('./routes/show'))
 app.use('/files/download',require('./routes/download'))
 
 
-const port = process.env.port || 3000
+const port = 4000
 app.listen(port, () => {
     console.log('server is listening on port: '+port)
 })
